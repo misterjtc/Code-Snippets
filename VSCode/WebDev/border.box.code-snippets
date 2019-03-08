@@ -1,0 +1,11 @@
+// This is the borderbox fix
+{
+	".borderbox": {
+		"scope": "css",
+		"prefix": ".bor-box",
+		"body": ["* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }"],
+		"description": "Borderbox"
+	}
+}
+
+
